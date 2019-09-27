@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--This is a page about me! -->
+<html>
+	<head>
+		<title>HTML, CSS</title>
+		<!--for External CSS we add a link to that document-->
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		
+		<!--this style element bellow is known as Internal CSS-->
+		<style>
+			 
+			#container {
+				border: INDIGO 1px solid;
+				margin-top:3%;
+				width:66%;
+				height: 90%;
+				padding-top:5%;
+				padding-bottom:5%; 
+				background:SEAGREEN;
+				margin:auto;
+			}
+		
+			#change_color{
+				color: INDIGO;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="center">
+					<img id="im1" src="image.jpg" alt="Not found." width="200" height="200">
+				<h1>About Me!</h1>
+				<!--the following style attribute ; style="color:#3E48A5" is inline CSS-->
+				<a href="https://www.youtube.com" style="color:#3E48A5">Link to my profile </a>
+				<p >This is <sup>my</sup> <b>first</b> web page. I am <i>SOMEONE</i>.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.</p>
+			</div>
+		
+			<div id="left">
+				<p id="change_color">TO DO for today's lab: </p>
+
+				<ul>
+					<li>Eat</li>
+					<ol>
+						<li>Get some food</li>
+						<li>Repeat</li>
+					</ol>
+
+					<li>Eat</li>
+				</ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.</p>
+			</div>
+
+			<div id= "right">
+					<h3>Details of Students of Physics:</h3>
+					<table>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+						</tr>
+						<tr>
+							<td>98</td>
+							<td>Galileo Galilei</td>
+						</tr>
+						<tr>
+							<td>99</td>
+							<td>Isaac Newton</td>
+						</tr>
+						<tr> 
+							<td>100</td>
+							<td>Albert Einstein</td>
+						</tr>
+						<tr> 
+							<td>101</td>
+							<td>Richard Feynman</td>
+						</tr>
+					</table>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.</p>
+			</div>
+			
+		</div>
+
+	</body>
+</html> 
+
+<!--samrter way to create columns: https://www.w3schools.com/css/css_website_layout.asp-->
