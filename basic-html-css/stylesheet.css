@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+  }
+table{
+    width:95%;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+#left {
+   float:left;
+   padding-left: 3%;
+   padding-top:3%;
+   margin-left:2%;
+   border: solid black 2px;
+   width:25%;
+   height: 95%;
+}
+
+#center {
+    margin-left:3%;
+    padding-left:3%;
+    border:solid black 1px; 
+    display: inline-block;
+    width:30%;
+    padding-top:3%;
+    height: 95%;
+}
+
+#right {
+    padding-left: 3%;
+    padding-top:3%;
+    margin-right:2%;
+    width:25%;
+    border: solid black 2px;
+    float:right; 
+    height: 95%;
+}
+#im1{ 
+
+    border-radius: 50%;
+    
+}
