@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script Basic</title>
+        <style> 
+            body{
+                margin-left:20%;
+                padding-left:5%;
+                padding-bottom: 5%;
+                border:solid black 1px; 
+                width:50%;
+                padding-top:3%;
+                height: 95%;
+            }
+        </style>
+        
+        <script>
+            function myFunction() {
+                document.getElementById("demo_para").innerHTML = "Paragraph changed.";
+            }
+
+            
+        </script>
+         
+
+    </head>
+
+    <body>
+           
+
+        <h2> Basic Java Script</h2>
+
+        
+        <p id="demo_date">Data and time will appear here.</p>
+        <button type="button" onclick="document.getElementById('demo_date').innerHTML = Date()">Click here to display Date and Time.</button>
+
+        <br>
+
+        <p id="demo_para">This will be changed by invoking a function.</p>
+        <button type="button" onclick="myFunction()">Click here to call function</button>
+
+        
+        <h3>Add two numbers: </h3>
+        <form>
+            Number 1: <input type="text" name="num1"><br>
+            Number 2: <input type="text" name="num2"><br><br>
+            Sum: <input type="text" name="sum"><br>
+            <input type="button" value="Sum" onclick="findsum()">
+        </form>
+        <script src="findsum.js"></script>
+
+    </body>
+</html> 
