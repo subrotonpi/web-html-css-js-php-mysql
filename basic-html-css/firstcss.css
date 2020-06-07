@@ -1,0 +1,22 @@
+body{
+    width: 66%;
+}
+
+h2{
+    color: green;  
+}
+#intro-p{
+    color: blueviolet;
+}
+
+.my-ol{
+    color: aqua;
+}
+
+#sec-1{
+    /***width: 80%; 
+    background-color: gray; ***/  
+}
+#sec-2{
+    background-color:gray;
+}
