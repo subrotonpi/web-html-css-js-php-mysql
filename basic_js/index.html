@@ -23,13 +23,13 @@
 
     </head>
 
-    <body onload="alert('hello class!!')">
+    <body onload="alert('Web Engg!!')">
            
 
         <h2> Basic Java Script</h2>
 
         
-        <p id="demo_date">Data and time will appear here.</p>
+        <p id="demo_date">Date and time will appear here.</p>
         <button type="button" onclick="document.getElementById('demo_date').innerHTML = Date()">Click here to display Date and Time.</button>
 
         <br>
@@ -39,13 +39,22 @@
 
         
         <h3>Add two numbers: </h3>
+        
         <form>
             Number 1: <input type="text" name="num1"><br>
             Number 2: <input type="text" name="num2"><br><br>
             Sum: <input type="text" name="sum"><br>
             <input type="button" value="Sum" onclick="findsum()">
         </form>
+
         <script src="findsum.js"></script>
 
+        <h1>JS Array Demo</h1>
+        <p id="demo"></p>
+        <script>
+            var cars = ["Saab", "Volvo", "BMW"];
+            cars[0] = "Opel";
+            document.getElementById("demo").innerHTML = cars;
+        </script>
     </body>
 </html> 
